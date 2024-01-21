@@ -1,0 +1,12 @@
+npm ERR! code EACCES
+npm ERR! syscall open
+npm ERR! path /Users/personal/.npm/_cacache/index-v5/54/c6/df12bf5a0712d603b0a51bf196f6532ff44349a5ba2abfa387a6b1e5f76a
+npm ERR! errno -13
+npm ERR! 
+npm ERR! Your cache folder contains root-owned files, due to a bug in
+npm ERR! previous versions of npm which has since been addressed.
+npm ERR! 
+npm ERR! To permanently fix this problem, please run:
+npm ERR!   sudo chown -R 502:20 "/Users/personal/.npm"
+
+npm ERR! A complete log of this run can be found in: /Users/personal/.npm/_logs/2024-01-02T13_44_58_220Z-debug-0.log
