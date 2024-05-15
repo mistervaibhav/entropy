@@ -1,7 +1,8 @@
 {
-  "name": "absurd-components",
-  "version": "1.0.0",
-  "description": "",
+  "name": "entropy",
+  "package-name": "entropy",
+  "version": "0.0.1",
+  "description": "A collection of absurd components",
   "main": "index.js",
   "scripts": {
     "build": "tsup src/index.ts",
@@ -9,8 +10,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Vaibhav Singh @mistervaibhav",
   "license": "ISC",
   "devDependencies": {
     "@storybook/addon-essentials": "^7.6.7",
@@ -26,5 +26,10 @@
     "react-dom": "^18.2.0",
     "storybook": "^7.6.7",
     "tsup": "^8.0.1"
-  }
+  },
+  "keywords": [
+    "react",
+    "storybook",
+    "typescript"
+  ]
 }
